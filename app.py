@@ -47,7 +47,7 @@ def fun():
 
 st.markdown('<p class="medium-font">Enter Review !!</p>', unsafe_allow_html=True)
 review = st.text_input("here")
-model = joblib.load('/content/drive/MyDrive/INternship/Major Project/IMDB Dataset.csv/imdb-rating')
+model = joblib.load('imdb-rating')
 op = model.predict([review])
 if st.button('Analyse'):
   st.markdown(f'<p class="medium-font"> The Review is {op[0]} </p>',unsafe_allow_html=True)
