@@ -41,7 +41,7 @@ st.markdown(
     f"""
     <style>
     .reportview-container {{
-        background-color: #B0B1A6;
+        background-color: #B0B1A6
     }}
    
     """,
