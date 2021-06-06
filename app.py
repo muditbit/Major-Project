@@ -63,7 +63,7 @@ st.markdown(
     f"""
     <style>
     .reportview-container {{
-        background: url("https://github.com/muditbit/Major-Project/blob/master/test.jpg")
+        background-image: url("https://github.com/muditbit/Major-Project/blob/master/test.jpg");
     }}
    
     """,
