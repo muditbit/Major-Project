@@ -54,7 +54,7 @@ if st.button('Analyse'):
 
 
 
-main_bg = "test.jpg"
+main_bg = "https://github.com/muditbit/Major-Project/blob/master/test.jpg"
 main_bg_ext = "jpg"
 
 
