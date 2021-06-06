@@ -1,6 +1,6 @@
 # Major-Project
 
-#Links Of Colab and Dataset
+# Links Of Colab and Dataset
 
 # 1. Model Notebook
 
