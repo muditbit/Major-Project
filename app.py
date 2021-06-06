@@ -54,7 +54,7 @@ if st.button('Analyse'):
 
 
 
-main_bg = "/content/drive/MyDrive/INternship/Major Project/IMDB Dataset.csv/test.jpg"
+main_bg = "test.jpg"
 main_bg_ext = "jpg"
 
 
