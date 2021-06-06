@@ -37,6 +37,16 @@ st.markdown("""
 </style>
 
 """, unsafe_allow_html=True)
+st.markdown(
+    f"""
+    <style>
+    .reportview-container {{
+        background-image: url("https://github.com/muditbit/Major-Project/blob/master/test.jpg");
+    }}
+   
+    """,
+    unsafe_allow_html=True
+)
 st.markdown('<p class="big-font">IMDB Review Sentiment Analysis !!</p>', unsafe_allow_html=True)
 
 def fun():
@@ -59,16 +69,7 @@ main_bg_ext = "jpg"
 
 
 
-st.markdown(
-    f"""
-    <style>
-    .reportview-container {{
-        background-image: url("https://github.com/muditbit/Major-Project/blob/master/test.jpg");
-    }}
-   
-    """,
-    unsafe_allow_html=True
-)
+
 
 if st.sidebar.button('About'):
   fun() 
