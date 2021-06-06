@@ -71,5 +71,5 @@ st.markdown(
 )
 
 if st.sidebar.button('About'):
-  fun()
+  fun() 
 
